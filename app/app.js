@@ -1,7 +1,7 @@
 angular.module('teste',[]);
 
 angular.module('teste')
-.directive('main.navbar', function () {
+.directive('navbar', function () {
         return {
             restrict: 'AE',
             replace: false,
@@ -10,11 +10,11 @@ angular.module('teste')
     });
 
 angular.module('teste')
-.directive('main.navbar.message', function () {
+.directive('navbarmessage', function () {
         return {
             restrict: 'AE',
             replace: false,
-            templateUrl: "/app/view/main-navbav-messager.html"
+            templateUrl: "/app/view/main-navbar-message.html"
         };
     });
 
