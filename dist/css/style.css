@@ -1,0 +1,78 @@
+navbar {
+    display: block;
+}
+
+navbarmessage {
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.skin-blue .main-header .navbar .nav > navbarmessage > a {
+    color: #fff;
+}
+
+.navbar-nav > navbarmessage > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.nav > navbarmessage > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.main-header .navbar .nav > navbarmessage > a > .label {
+    position: absolute;
+    top: 9px;
+    right: 7px;
+    text-align: center;
+    font-size: 9px;
+    padding: 2px 3px;
+    line-height: .9;
+}
+
+@media (min-width:768px){
+    .navbar-nav > navbarmessage > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+
+.skin-blue .main-header .navbar .nav > navbarmessage > a:hover,
+.skin-blue .main-header .navbar .nav > navbarmessage > a:active,
+.skin-blue .main-header .navbar .nav > navbarmessage > a:focus,
+.skin-blue .main-header .navbar .nav .open > a,
+.skin-blue .main-header .navbar .nav .open > a:hover,
+.skin-blue .main-header .navbar .nav .open > a:focus,
+.skin-blue .main-header .navbar.nav > .active > a {
+    background:rgba(0,0,0,0.1);
+    color:#f6f6f6;
+}
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color:#fff;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    color:#f6f6f6;
+    background:rgba(0,0,0,0.1);
+}
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color:#fff;
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color:#367fa9;
+}
+@media (max-width:767px) {
+    .skin-blue .main-header .navbar .dropdown-menu navbarmessage.divider {
+        background-color:rgba(255,255,255,0.1);
+    }
+    .skin-blue .main-header .navbar .dropdown-menu navbarmessage a {
+        color:#fff;
+    }
+    .skin-blue .main-header .navbar .dropdown-menu navbarmessage a:hover {
+        background:#367fa9;
+    }
+}
